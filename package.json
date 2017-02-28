@@ -1,0 +1,29 @@
+{
+  "name": "radyo-yayini",
+  "version": "1.0.0",
+  "description": "Radyo Yayını Nodejs",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcaneon/radio-stream.git"
+  },
+  "author": "bcaneon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcaneon/radio-stream/issues"
+  },
+  "homepage": "https://github.com/bcaneon/radio-stream",
+  "dependencies": {
+    "binaryjs": "^0.2.1",
+    "connect": "^3.3.4",
+    "lame": "^1.2.3",
+    "opener": "^1.4.1",
+    "serve-static": "^1.9.1",
+    "uaparser": "0.0.2",
+    "wav": "^0.1.2"
+  }
+}
